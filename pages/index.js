@@ -52,7 +52,7 @@ export default function Home() {
             </h3>
          
            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-                 <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                 <a href="https://www.linkedin.com/in/amir-jaballah-5803b312a/" target="_blank" rel="noopener noreferrer">
                    <AiFillLinkedin />
                  </a>
             </div>
@@ -90,37 +90,17 @@ Baccalauréat : Sciences Techniques, 09/2011 – 06/2012
 Lycée Technique De Médenine – Medenine, Tunisie – Bien
 
  </p>
-              <h3 className="text-3xl py-1 dark:text-white ">Education:</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            <h2>September 20222 - June 2024: Master degree in Software Engineering</h2>
-            <p><em>Speciality:</em> Software Engineering</p>
-  <p><em>Institution:</em> Higher Institute of Computer Science of Tunis</p>
-
-  <h2>September 2014 - September 2015: Master Degree in Composite Materials</h2>
-  <p><em>Speciality:</em> Materials Engineering</p>
-  <p><em>Institution:</em> Le Havre Univeristy</p>
-
-  <h2>September 2010 - June 2013 : Engineering Degree in Materials sciences</h2>
-  <p><em>Speciality:</em> Materials Engineering</p>
-  <p><em>Institution:</em> National Engineering School Of Sfax</p>
-
-  <h2>September 2008 - June 2010 :  Preparotry Class </h2>
-  <p><em>Speciality:</em> Mathematics and Physics (MP)</p>
-  <p><em>Institution:</em>  Preparatory Institute for Engineering Studies of Sfax</p>
-
-  <h2>September 2007 - June 2008: Baccalaureate Degree</h2>
-  <p><em>Specialty:</em> Baccalaureate Degree in Mathematics</p>
-  Project Manager
+ <h3 className="text-3xl py-1 dark:text-white ">FORMATION:</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">    
+ <b>Project Manager</b>
 Société Slama Technique Avancée Du Froid (STAF) - Tunis
 08/2020 - Actuel
 
-  Conception et réalisation de projets nécessitant un refroidissement
+• Conception et réalisation de projets nécessitant un refroidissement
 industriel ou commercial
-•
-Etude et conception d'armoires électriques et régulation avec
+•Etude et conception d'armoires électriques et régulation avec
 intégration des systèmes d'automate programmable industriel et de
 gestion technique centralisée GTC
-•
 • Elaboration des plans en utilisant AutoCAD et SolidWorks
 • Assurer le suivi de la mise en œuvre des chambres froides
 • Organisation des plannings et distribution des tâches au personnel.
@@ -128,38 +108,33 @@ gestion technique centralisée GTC
 Négociation et construction des projets, rédaction d'offres
 commerciales sur-mesure, soutien méthodologique et organisationnel
 dans la gestion des projets.
-•
-Réponse aux appels d'offres : constitution et rédaction des dossiers,
+• Réponse aux appels d'offres : constitution et rédaction des dossiers,
 chiffrage des propositions
 
-Responsable Projet
+<b>Responsable Projet</b>
 Tunisie Electro Technique (TET) - Tunis
 01/2020 - 07/2020
 
-
-Faire l'étude et la conception des armoires électrique basse et moyen
-tension.
-•
+•Faire l'étude et la conception des armoires électrique basse et moyen tension.
 • Elaboration des plans par AutoCAD et SEE Electrical.
 • Suivi des projets.
 
             </p>
           </div>
-          
 
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-              compétences:
+              Compétences technique:
               </h3>
               <p className="py-2">
               </p>
-              <h4 className="py-4 text-teal-600">Test Automation</h4>
-              <p className="text-gray-800 py-1">Writing test cases</p>
-              <p className="text-gray-800 py-1">Selenium and Cypress</p>
-              <p className="text-gray-800 py-1">API implimentation and testing</p>
-              <p className="text-gray-800 py-1">Cucumber, BDD, CI/CD</p>
+              <h4 className="py-4 text-teal-600">AutoCAD</h4>
+              <p className="text-gray-800 py-1">SolidWorks</p>
+              <p className="text-gray-800 py-1">iso9001</p>
+              <p className="text-gray-800 py-1">photovoltaique</p>
+              <p className="text-gray-800 py-1">froid industriel</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
@@ -167,7 +142,7 @@ tension.
                  compétences:
               </h3>
               <p className="py-2">
-                compétences
+                compétences Informatique:
               </p>
               <h4 className="py-4 text-teal-600">programmation </h4>
               <p className="text-gray-800 py-1">Java</p>
@@ -181,23 +156,15 @@ tension.
               <p className="py-2">
               Certifications
               </p>
-              <h4 className="py-4 text-teal-600">IBM: Linux and Private Cloud Administration</h4>
-              <p className="text-gray-800 py-1">GASQ: A4Q Selenium Java </p>
-              <p className="text-gray-800 py-1">GASQ: ISTQB: Certified Tester Foundation Level</p>
-              <p className="text-gray-800 py-1">Scrum Fundemental Certified</p>
-            </div>
-          </div>
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">skills</h3>
-              <p className="py-2">
-              
-              </p>
+              <h4 className="py-4 text-teal-600">Arduino</h4>
+              <p className="text-gray-800 py-1">Raspberry</p>
+              <p className="text-gray-800 py-1">C/C++</p>
+              <p className="text-gray-800 py-1">Tia Portal Siemens</p>
+            </div>     
               <h2 className="py-4 text-teal-600">Languages:</h2>
-            
-              <p className="text-gray-800 py-1">Arabic: Native</p>
-              <p className="text-gray-800 py-1">French: Fluent</p>
-              <p className="text-gray-800 py-1">English: Intermediate</p>
+              <p className="text-gray-800 py-1">Arabe : natif</p>
+              <p className="text-gray-800 py-1">Français : Courant</p>
+              <p className="text-gray-800 py-1">Anglais : Intermédiaire</p>
             </div>
         </section>
       </main>
