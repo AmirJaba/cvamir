@@ -1,7 +1,6 @@
 # Projet CV avec Next.js et Docker
 ## Phase de développement
 1.  le clonage du repository à l'aide de la commande suivante :
-   ```bash
    git clone https://github.com/AmirJaba/cvamir.git
    cd cvamir
 
