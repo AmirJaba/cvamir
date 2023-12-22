@@ -2,14 +2,14 @@
 ## Phase de développement
 1. Clonez le repository :
    ```bash
-   git clone https://github.com/AmirJaba/Amir_portfolio.git
-   cd Amir_portfolio
+   git clone https://github.com/AmirJaba/cvamir.git
+   cd cvamir
 
 2. Construction de l'Image Docker 
 Construisez l'image Docker en exécutant la commande suivante à la racine du projet :
-Docker build -t Amir_portfolio .
+docker build -t cvamir .
 3. Lancement du Conteneur Docker
-docker run -p 3000:3000 Amir_portfolio
+docker run -p 3000:3000 cvamir
 
 4. Développement dans le Conteneur
 Vous êtes maintenant à l'intérieur du conteneur. Effectuez vos tâches de développement normalement.
