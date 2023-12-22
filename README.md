@@ -1,27 +1,36 @@
 # Projet CV avec Next.js et Docker
 ## Phase de développement
-1. Clonez le repository :
-   ```bash
-   git clone https://github.com/AmirJaba/Amir_portfolio.git
-   cd Amir_portfolio
+1.  le clonage du repository à l'aide de la commande suivante :
+```bash
+   git clone https://github.com/AmirJaba/cvamir.git
+   cd cvamir
+```
+3. Construire l'image Docker, exécutez la commande suivante à la racine du projet:
 
-2. Construction de l'Image Docker 
-Construisez l'image Docker en exécutant la commande suivante à la racine du projet :
-Docker build -t Amir_portfolio .
-3. Lancement du Conteneur Docker
-docker run -p 3000:3000 Amir_portfolio
+ ```bash
+docker build -t cvamir .
+ ```
+3. Une fois l'image Docker construite, lancez le conteneur avec la commande:
 
-4. Développement dans le Conteneur
-Vous êtes maintenant à l'intérieur du conteneur. Effectuez vos tâches de développement normalement.
-Ouvrez [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
-Vous pouvez commencer à éditer la page en modifiant `pages/index.js`. La page se met à jour automatiquement au fur et à mesure que vous modifiez le fichier.
-5. Arrêt du Conteneur
-Lorsque vous avez terminé, vous pouvez quitter le conteneur en tapant exit. Le conteneur sera automatiquement supprimé.
+```bash
+docker run -p 3000:3000 cvamir
+ ```
+4. Vous serez maintenant à l'intérieur du conteneur, où vous pouvez effectuer vos tâches de développement. Accédez à http://localhost:3000 dans votre navigateur pour visualiser les résultats. Pour débuter l'édition, modifiez le fichier pages/index.js. La page se mettra à jour automatiquement à mesure que vous apportez des modifications au fichier.
 
-6. Autres Commandes Utiles
-Pour lister tous les conteneurs en cours d'exécution : docker ps
-Pour lister tous les conteneurs (y compris ceux arrêtés) : docker ps -a
-Pour arrêter un conteneur en cours d'exécution : docker stop <ID_DU_CONTENEUR>
-Notes Supplémentaires
-Assurez-vous que le port nécessaire pour le développement est exposé dans le Dockerfile.
-Les configurations spécifiques au développement peuvent être ajustées dans le Dockerfile selon les besoins.
+5. Lorsque vous avez terminé le développement, quittez le conteneur en tapant "exit". Le conteneur sera automatiquement supprimé.
+
+6. Quelques commandes utiles pendant le développement sont:
+
+Pour lister tous les conteneurs en cours d'exécution:
+```bash
+docker ps
+```
+Pour lister tous les conteneurs (y compris ceux arrêtés):
+```bash
+docker ps -a
+```
+Pour arrêter un conteneur en cours d'exécution, utilisez:
+```bash
+docker stop <ID_DU_CONTENEUR>
+```
+Assurez-vous que le port nécessaire au développement est exposé dans le Dockerfile. Vous pouvez ajuster les configurations spécifiques au développement dans le Dockerfile selon vos besoins.

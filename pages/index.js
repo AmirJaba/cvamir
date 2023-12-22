@@ -90,7 +90,6 @@ Baccalauréat : Sciences Techniques, 09/2011 – 06/2012
 Lycée Technique De Médenine – Medenine, Tunisie – Bien
 
  </p>
-            </p>
               <h3 className="text-3xl py-1 dark:text-white ">Education:</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             <h2>September 20222 - June 2024: Master degree in Software Engineering</h2>
