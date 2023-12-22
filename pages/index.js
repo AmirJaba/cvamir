@@ -38,7 +38,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="#"
                 >
-                  CV
+                  Portfolio
                 </a>
               </li>
             </ul>
@@ -50,78 +50,72 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Etudiant
             </h3>
-         
            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
                  <a href="https://www.linkedin.com/in/amir-jaballah-5803b312a/" target="_blank" rel="noopener noreferrer">
                    <AiFillLinkedin />
                  </a>
-            </div>
-
-           
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
         <section>
           <div>
           <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-          PROFIL
+          <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">  
+          <h2>PROFIL</h2> 
 Actuellement en deuxième année de master professionnel en Ingénierie
 du Logiciel - Open Source à ISI, je suis activement à la recherche d'une
 opportunité de stage pour mon projet de fin d'études dans le domaine du
 développement. Doté d'une grande autonomie et d'une volonté marquée,
 je suis prêt à mettre en valeur mes compétences et ma soif
-d'apprentissage au service de votre entreprise.
+d'apprentissage au service de votre entreprise.</div>
             </p>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">  
+
             <h3 className="text-3xl py-1 dark:text-white ">FORMATION:</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            
-Mastère Professionnel en Génie Logiciel MP2L, 09/2022 – En cours
-Institut Supérieur D'Informatique Et Université Virtuelle De Tunis – Ariana
+          
+            <h2><b>Mastère Professionnel en Génie Logiciel MP2L, 09/2022 – En cours </b></h2>
+            <p>Institut Supérieur D'Informatique Et Université Virtuelle De Tunis – Ariana</p>
 
-Ingénierie Électique , 09/2014 – 09/2018
-Ecole Nationale D'ingénieurs De Sfax – Sfax, Tunisie
+<h2><b>Ingénierie Électique , 09/2014 – 09/2018</b></h2>
+<p>Ecole Nationale D'ingénieurs De Sfax – Sfax, Tunisie</p>
 
-09/2012 – 06/2014
-Institut Préparatoire Aux Etudes D'ingénieurs De Nabeul – Nabeul, Tunisie
+<h2><b>Cycle préparatoire specialité technologie , 09/2012 – 06/2014</b></h2>
+<p>Institut Préparatoire Aux Etudes D'ingénieurs De Nabeul – Nabeul, Tunisie</p>
 
-Baccalauréat : Sciences Techniques, 09/2011 – 06/2012
-Lycée Technique De Médenine – Medenine, Tunisie – Bien
+<h2><b>Baccalauréat : Sciences Techniques, 09/2011 – 06/2012</b></h2>
+<p>Lycée Technique De Médenine – Medenine, Tunisie – Bien</p>
 
- </p>
- <h3 className="text-3xl py-1 dark:text-white ">FORMATION:</h3>
+ </p></div>
+ <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">  
+ <h3 className="text-3xl py-1 dark:text-white ">EXPERIENCES:</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">    
- <b>Project Manager</b>
-Société Slama Technique Avancée Du Froid (STAF) - Tunis
-08/2020 - Actuel
-
+            <h2><b>Project Manager</b></h2>
+            <p><em>Société Slama Technique Avancée Du Froid (STAF) - Tunis</em></p>
+            <h2>08/2020 - Actuel</h2>
+            <p>
 • Conception et réalisation de projets nécessitant un refroidissement
-industriel ou commercial
-•Etude et conception d'armoires électriques et régulation avec
+industriel ou commercial</p>
+<p>•Etude et conception d'armoires électriques et régulation avec
 intégration des systèmes d'automate programmable industriel et de
-gestion technique centralisée GTC
-• Elaboration des plans en utilisant AutoCAD et SolidWorks
-• Assurer le suivi de la mise en œuvre des chambres froides
-• Organisation des plannings et distribution des tâches au personnel.
-• Coordination de l'activité de l'équipe au quotidien.
-Négociation et construction des projets, rédaction d'offres
+gestion technique centralisée GTC</p>
+<p>• Elaboration des plans en utilisant AutoCAD et SolidWorks</p>
+<p>• Assurer le suivi de la mise en œuvre des chambres froides</p>
+<p>• Organisation des plannings et distribution des tâches au personnel.</p>
+<p>• Coordination de l'activité de l'équipe au quotidien.Négociation et construction des projets, rédaction d'offres
 commerciales sur-mesure, soutien méthodologique et organisationnel
-dans la gestion des projets.
-• Réponse aux appels d'offres : constitution et rédaction des dossiers,
-chiffrage des propositions
-
-<b>Responsable Projet</b>
-Tunisie Electro Technique (TET) - Tunis
-01/2020 - 07/2020
-
-•Faire l'étude et la conception des armoires électrique basse et moyen tension.
-• Elaboration des plans par AutoCAD et SEE Electrical.
-• Suivi des projets.
-
+dans la gestion des projets.</p>
+<p>• Réponse aux appels d'offres : constitution et rédaction des dossiers,
+chiffrage des propositions</p>
+<h2><b>Responsable Projet</b> </h2>
+<p><em>Tunisie Electro Technique (TET) - Tunis</em></p>
+<h2>01/2020 - 07/2020 </h2>
+<p>• Faire l'étude et la conception des armoires électrique basse et moyen tension.</p>
+<p>• Elaboration des plans par AutoCAD et SEE Electrical.</p>
+<p>• Suivi des projets.</p>
             </p>
+            </div>
           </div>
-
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
@@ -131,41 +125,43 @@ Tunisie Electro Technique (TET) - Tunis
               <p className="py-2">
               </p>
               <h4 className="py-4 text-teal-600">AutoCAD</h4>
-              <p className="text-gray-800 py-1">SolidWorks</p>
-              <p className="text-gray-800 py-1">iso9001</p>
-              <p className="text-gray-800 py-1">photovoltaique</p>
-              <p className="text-gray-800 py-1">froid industriel</p>
+              <p className="py-4 text-teal-600">SolidWorks</p>
+              <p className="py-4 text-teal-600">iso9001</p>
+              <p className="py-4 text-teal-600">photovoltaique</p>
+              <p className="py-4 text-teal-600">froid industriel</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                 compétences:
+                 Compétences Informatique:
               </h3>
               <p className="py-2">
-                compétences Informatique:
               </p>
               <h4 className="py-4 text-teal-600">programmation </h4>
-              <p className="text-gray-800 py-1">Java</p>
-              <p className="text-gray-800 py-1">NodeJs</p>
-              <p className="text-gray-800 py-1">C/C++</p>
-              <p className="text-gray-800 py-1">Python</p>
+              <p className="py-4 text-teal-600">Java</p>
+              <p className="py-4 text-teal-600">NodeJs</p>
+              <p className="py-4 text-teal-600">C/C++</p>
+              <p className="py-4 text-teal-600">Python</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">skills</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Certifications</h3>
               <p className="py-2">
-              Certifications
               </p>
               <h4 className="py-4 text-teal-600">Arduino</h4>
-              <p className="text-gray-800 py-1">Raspberry</p>
-              <p className="text-gray-800 py-1">C/C++</p>
-              <p className="text-gray-800 py-1">Tia Portal Siemens</p>
-            </div>     
-              <h2 className="py-4 text-teal-600">Languages:</h2>
-              <p className="text-gray-800 py-1">Arabe : natif</p>
-              <p className="text-gray-800 py-1">Français : Courant</p>
-              <p className="text-gray-800 py-1">Anglais : Intermédiaire</p>
-            </div>
+              <p className="py-4 text-teal-600">Raspberry</p>
+              <p className="py-4 text-teal-600">C/C++</p>
+              <p className="py-4 text-teal-600">Tia Portal Siemens</p>
+            </div> 
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+              <Image src={code} width={100} height={100} />
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Languages:</h3>  
+              <p className="py-2">
+              </p>  
+              <p className="text-gray-800 py-1">Arabe:natif</p>
+              <p className="text-gray-800 py-1">Français:Courant</p>
+              <p className="text-gray-800 py-1">Anglais:Intermédiaire</p>
+            </div></div>
         </section>
       </main>
     </div>
